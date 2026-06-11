@@ -1,0 +1,75 @@
+State,Road Type,Count
+PERLIS,Highway,0
+KEDAH,Highway,2
+P.PINANG,Highway,12
+PERAK,Highway,8
+SELANGOR,Highway,56
+K.LUMPUR,Highway,12
+N.SEMBILAN,Highway,8
+MELAKA,Highway,2
+JOHOR,Highway,25
+PAHANG,Highway,7
+TERENGGANU,Highway,2
+KELANTAN,Highway,0
+SABAH,Highway,0
+SARAWAK,Highway,0
+,Highway,134
+PERLIS,Federal Road,0
+KEDAH,Federal Road,14
+P.PINANG,Federal Road,24
+PERAK,Federal Road,18
+SELANGOR,Federal Road,31
+K.LUMPUR,Federal Road,2
+N.SEMBILAN,Federal Road,16
+MELAKA,Federal Road,3
+JOHOR,Federal Road,44
+PAHANG,Federal Road,24
+TERENGGANU,Federal Road,14
+KELANTAN,Federal Road,11
+SABAH,Federal Road,6
+SARAWAK,Federal Road,10
+,Federal Road,217
+PERLIS,State Road,2
+KEDAH,State Road,29
+P.PINANG,State Road,31
+PERAK,State Road,20
+SELANGOR,State Road,54
+K.LUMPUR,State Road,5
+N.SEMBILAN,State Road,16
+MELAKA,State Road,27
+JOHOR,State Road,25
+PAHANG,State Road,7
+TERENGGANU,State Road,9
+KELANTAN,State Road,12
+SABAH,State Road,9
+SARAWAK,State Road,33
+,State Road,279
+PERLIS,Municipal Road,1
+KEDAH,Municipal Road,7
+P.PINANG,Municipal Road,66
+PERAK,Municipal Road,55
+SELANGOR,Municipal Road,326
+K.LUMPUR,Municipal Road,184
+N.SEMBILAN,Municipal Road,17
+MELAKA,Municipal Road,34
+JOHOR,Municipal Road,129
+PAHANG,Municipal Road,19
+TERENGGANU,Municipal Road,5
+KELANTAN,Municipal Road,3
+SABAH,Municipal Road,4
+SARAWAK,Municipal Road,6
+,Municipal Road,856
+PERLIS,Other Roads,2
+KEDAH,Other Roads,5
+P.PINANG,Other Roads,15
+PERAK,Other Roads,12
+SELANGOR,Other Roads,33
+K.LUMPUR,Other Roads,7
+N.SEMBILAN,Other Roads,13
+MELAKA,Other Roads,8
+JOHOR,Other Roads,19
+PAHANG,Other Roads,2
+TERENGGANU,Other Roads,0
+KELANTAN,Other Roads,5
+SABAH,Other Roads,2
+SARAWAK,Other Roads,0

@@ -1,0 +1,113 @@
+State,Metric,Count
+PERLIS,Total Accidents,1548
+KEDAH,Total Accidents,17966
+PERAK,Total Accidents,32586
+PULAU PINANG,Total Accidents,33792
+SELANGOR,Total Accidents,115565
+KUALA LUMPUR,Total Accidents,53493
+N/SEMBILAN,Total Accidents,19407
+MELAKA,Total Accidents,14110
+JOHOR,Total Accidents,55381
+PAHANG,Total Accidents,17315
+KELANTAN,Total Accidents,9707
+TERENGGANU,Total Accidents,10106
+SABAH,Total Accidents,16192
+SARAWAK,Total Accidents,17253
+PERLIS,Fatal Accidents,65
+KEDAH,Fatal Accidents,505
+PERAK,Fatal Accidents,636
+PULAU PINANG,Fatal Accidents,453
+SELANGOR,Fatal Accidents,990
+KUALA LUMPUR,Fatal Accidents,225
+N/SEMBILAN,Fatal Accidents,345
+MELAKA,Fatal Accidents,219
+JOHOR,Fatal Accidents,992
+PAHANG,Fatal Accidents,493
+KELANTAN,Fatal Accidents,353
+TERENGGANU,Fatal Accidents,283
+SABAH,Fatal Accidents,374
+SARAWAK,Fatal Accidents,327
+PERLIS,Serious Accidents,192
+KEDAH,Serious Accidents,668
+PERAK,Serious Accidents,755
+PULAU PINANG,Serious Accidents,363
+SELANGOR,Serious Accidents,572
+KUALA LUMPUR,Serious Accidents,125
+N/SEMBILAN,Serious Accidents,507
+MELAKA,Serious Accidents,149
+JOHOR,Serious Accidents,532
+PAHANG,Serious Accidents,272
+KELANTAN,Serious Accidents,773
+TERENGGANU,Serious Accidents,340
+SABAH,Serious Accidents,475
+SARAWAK,Serious Accidents,279
+PERLIS,Minor Accidents,261
+KEDAH,Minor Accidents,1109
+PERAK,Minor Accidents,1102
+PULAU PINANG,Minor Accidents,517
+SELANGOR,Minor Accidents,624
+KUALA LUMPUR,Minor Accidents,606
+N/SEMBILAN,Minor Accidents,978
+MELAKA,Minor Accidents,529
+JOHOR,Minor Accidents,1256
+PAHANG,Minor Accidents,466
+KELANTAN,Minor Accidents,1672
+TERENGGANU,Minor Accidents,436
+SABAH,Minor Accidents,449
+SARAWAK,Minor Accidents,403
+PERLIS,Damage Only Accidents,1030
+KEDAH,Damage Only Accidents,15684
+PERAK,Damage Only Accidents,30093
+PULAU PINANG,Damage Only Accidents,32459
+SELANGOR,Damage Only Accidents,113379
+KUALA LUMPUR,Damage Only Accidents,52537
+N/SEMBILAN,Damage Only Accidents,17577
+MELAKA,Damage Only Accidents,13213
+JOHOR,Damage Only Accidents,52601
+PAHANG,Damage Only Accidents,16084
+KELANTAN,Damage Only Accidents,6909
+TERENGGANU,Damage Only Accidents,9047
+SABAH,Damage Only Accidents,14894
+SARAWAK,Damage Only Accidents,16244
+PERLIS,Deaths,66
+KEDAH,Deaths,532
+PERAK,Deaths,707
+PULAU PINANG,Deaths,483
+SELANGOR,Deaths,1061
+KUALA LUMPUR,Deaths,233
+N/SEMBILAN,Deaths,399
+MELAKA,Deaths,235
+JOHOR,Deaths,1076
+PAHANG,Deaths,574
+KELANTAN,Deaths,380
+TERENGGANU,Deaths,314
+SABAH,Deaths,447
+SARAWAK,Deaths,365
+PERLIS,Seriously Injured,216
+KEDAH,Seriously Injured,819
+PERAK,Seriously Injured,964
+PULAU PINANG,Seriously Injured,451
+SELANGOR,Seriously Injured,712
+KUALA LUMPUR,Seriously Injured,127
+N/SEMBILAN,Seriously Injured,671
+MELAKA,Seriously Injured,201
+JOHOR,Seriously Injured,685
+PAHANG,Seriously Injured,447
+KELANTAN,Seriously Injured,944
+TERENGGANU,Seriously Injured,451
+SABAH,Seriously Injured,714
+SARAWAK,Seriously Injured,379
+PERLIS,Lightly Injured,337
+KEDAH,Lightly Injured,1447
+PERAK,Lightly Injured,1410
+PULAU PINANG,Lightly Injured,674
+SELANGOR,Lightly Injured,781
+KUALA LUMPUR,Lightly Injured,612
+N/SEMBILAN,Lightly Injured,1291
+MELAKA,Lightly Injured,650
+JOHOR,Lightly Injured,1535
+PAHANG,Lightly Injured,785
+KELANTAN,Lightly Injured,2064
+TERENGGANU,Lightly Injured,631
+SABAH,Lightly Injured,763
+SARAWAK,Lightly Injured,636

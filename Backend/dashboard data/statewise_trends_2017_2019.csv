@@ -1,0 +1,337 @@
+Year,State,Metric,Count
+2017,JOHOR,Damage Only Accidents,74685
+2017,JOHOR,Deaths,1067
+2017,JOHOR,Fatal Accidents,986
+2017,JOHOR,Lightly Injured,476
+2017,JOHOR,Minor Accidents,268
+2017,JOHOR,Serious Accidents,182
+2017,JOHOR,Seriously Injured,287
+2017,JOHOR,Total Accidents,76121
+2017,KEDAH,Damage Only Accidents,21893
+2017,KEDAH,Deaths,560
+2017,KEDAH,Fatal Accidents,528
+2017,KEDAH,Lightly Injured,666
+2017,KEDAH,Minor Accidents,654
+2017,KEDAH,Serious Accidents,187
+2017,KEDAH,Seriously Injured,204
+2017,KEDAH,Total Accidents,23262
+2017,KELANTAN,Damage Only Accidents,9201
+2017,KELANTAN,Deaths,442
+2017,KELANTAN,Fatal Accidents,389
+2017,KELANTAN,Lightly Injured,1277
+2017,KELANTAN,Minor Accidents,1002
+2017,KELANTAN,Serious Accidents,194
+2017,KELANTAN,Seriously Injured,251
+2017,KELANTAN,Total Accidents,10786
+2017,KUALA LUMPUR,Damage Only Accidents,71850
+2017,KUALA LUMPUR,Deaths,236
+2017,KUALA LUMPUR,Fatal Accidents,233
+2017,KUALA LUMPUR,Lightly Injured,809
+2017,KUALA LUMPUR,Minor Accidents,788
+2017,KUALA LUMPUR,Serious Accidents,69
+2017,KUALA LUMPUR,Seriously Injured,81
+2017,KUALA LUMPUR,Total Accidents,72940
+2017,MELAKA,Damage Only Accidents,18453
+2017,MELAKA,Deaths,230
+2017,MELAKA,Fatal Accidents,217
+2017,MELAKA,Lightly Injured,55
+2017,MELAKA,Minor Accidents,34
+2017,MELAKA,Serious Accidents,67
+2017,MELAKA,Seriously Injured,89
+2017,MELAKA,Total Accidents,18771
+2017,N/SEMBILAN,Damage Only Accidents,23805
+2017,N/SEMBILAN,Deaths,370
+2017,N/SEMBILAN,Fatal Accidents,332
+2017,N/SEMBILAN,Lightly Injured,703
+2017,N/SEMBILAN,Minor Accidents,579
+2017,N/SEMBILAN,Serious Accidents,225
+2017,N/SEMBILAN,Seriously Injured,286
+2017,N/SEMBILAN,Total Accidents,24941
+2017,PAHANG,Damage Only Accidents,20153
+2017,PAHANG,Deaths,485
+2017,PAHANG,Fatal Accidents,446
+2017,PAHANG,Lightly Injured,226
+2017,PAHANG,Minor Accidents,99
+2017,PAHANG,Serious Accidents,115
+2017,PAHANG,Seriously Injured,197
+2017,PAHANG,Total Accidents,20813
+2017,PERAK,Damage Only Accidents,37362
+2017,PERAK,Deaths,711
+2017,PERAK,Fatal Accidents,658
+2017,PERAK,Lightly Injured,569
+2017,PERAK,Minor Accidents,268
+2017,PERAK,Serious Accidents,299
+2017,PERAK,Seriously Injured,449
+2017,PERAK,Total Accidents,38587
+2017,PERLIS,Damage Only Accidents,1527
+2017,PERLIS,Deaths,62
+2017,PERLIS,Fatal Accidents,60
+2017,PERLIS,Lightly Injured,256
+2017,PERLIS,Minor Accidents,234
+2017,PERLIS,Serious Accidents,104
+2017,PERLIS,Seriously Injured,115
+2017,PERLIS,Total Accidents,1925
+2017,PULAU PINANG,Damage Only Accidents,42370
+2017,PULAU PINANG,Deaths,401
+2017,PULAU PINANG,Fatal Accidents,382
+2017,PULAU PINANG,Lightly Injured,130
+2017,PULAU PINANG,Minor Accidents,97
+2017,PULAU PINANG,Serious Accidents,158
+2017,PULAU PINANG,Seriously Injured,182
+2017,PULAU PINANG,Total Accidents,43007
+2017,SABAH,Damage Only Accidents,16358
+2017,SABAH,Deaths,351
+2017,SABAH,Fatal Accidents,312
+2017,SABAH,Lightly Injured,486
+2017,SABAH,Minor Accidents,239
+2017,SABAH,Serious Accidents,335
+2017,SABAH,Seriously Injured,473
+2017,SABAH,Total Accidents,17244
+2017,SARAWAK,Damage Only Accidents,18907
+2017,SARAWAK,Deaths,408
+2017,SARAWAK,Fatal Accidents,376
+2017,SARAWAK,Lightly Injured,401
+2017,SARAWAK,Minor Accidents,309
+2017,SARAWAK,Serious Accidents,215
+2017,SARAWAK,Seriously Injured,279
+2017,SARAWAK,Total Accidents,19807
+2017,SELANGOR,Damage Only Accidents,153525
+2017,SELANGOR,Deaths,1087
+2017,SELANGOR,Fatal Accidents,1047
+2017,SELANGOR,Lightly Injured,178
+2017,SELANGOR,Minor Accidents,147
+2017,SELANGOR,Serious Accidents,239
+2017,SELANGOR,Seriously Injured,281
+2017,SELANGOR,Total Accidents,154958
+2017,TERENGGANU,Damage Only Accidents,10134
+2017,TERENGGANU,Deaths,330
+2017,TERENGGANU,Fatal Accidents,299
+2017,TERENGGANU,Lightly Injured,307
+2017,TERENGGANU,Minor Accidents,201
+2017,TERENGGANU,Serious Accidents,79
+2017,TERENGGANU,Seriously Injured,136
+2017,TERENGGANU,Total Accidents,10713
+2018,JOHOR,Damage Only Accidents,77545
+2018,JOHOR,Deaths,977
+2018,JOHOR,Fatal Accidents,898
+2018,JOHOR,Lightly Injured,332
+2018,JOHOR,Minor Accidents,196
+2018,JOHOR,Serious Accidents,173
+2018,JOHOR,Seriously Injured,242
+2018,JOHOR,Total Accidents,78812
+2018,KEDAH,Damage Only Accidents,21982
+2018,KEDAH,Deaths,509
+2018,KEDAH,Fatal Accidents,478
+2018,KEDAH,Lightly Injured,579
+2018,KEDAH,Minor Accidents,566
+2018,KEDAH,Serious Accidents,213
+2018,KEDAH,Seriously Injured,218
+2018,KEDAH,Total Accidents,23239
+2018,KELANTAN,Damage Only Accidents,9210
+2018,KELANTAN,Deaths,420
+2018,KELANTAN,Fatal Accidents,380
+2018,KELANTAN,Lightly Injured,1386
+2018,KELANTAN,Minor Accidents,1208
+2018,KELANTAN,Serious Accidents,185
+2018,KELANTAN,Seriously Injured,240
+2018,KELANTAN,Total Accidents,10983
+2018,KUALA LUMPUR,Damage Only Accidents,71651
+2018,KUALA LUMPUR,Deaths,229
+2018,KUALA LUMPUR,Fatal Accidents,227
+2018,KUALA LUMPUR,Lightly Injured,368
+2018,KUALA LUMPUR,Minor Accidents,347
+2018,KUALA LUMPUR,Serious Accidents,59
+2018,KUALA LUMPUR,Seriously Injured,84
+2018,KUALA LUMPUR,Total Accidents,72284
+2018,MELAKA,Damage Only Accidents,18803
+2018,MELAKA,Deaths,191
+2018,MELAKA,Fatal Accidents,185
+2018,MELAKA,Lightly Injured,56
+2018,MELAKA,Minor Accidents,42
+2018,MELAKA,Serious Accidents,90
+2018,MELAKA,Seriously Injured,110
+2018,MELAKA,Total Accidents,19120
+2018,N/SEMBILAN,Damage Only Accidents,24147
+2018,N/SEMBILAN,Deaths,362
+2018,N/SEMBILAN,Fatal Accidents,341
+2018,N/SEMBILAN,Lightly Injured,573
+2018,N/SEMBILAN,Minor Accidents,455
+2018,N/SEMBILAN,Serious Accidents,180
+2018,N/SEMBILAN,Seriously Injured,223
+2018,N/SEMBILAN,Total Accidents,25123
+2018,PAHANG,Damage Only Accidents,20044
+2018,PAHANG,Deaths,485
+2018,PAHANG,Fatal Accidents,425
+2018,PAHANG,Lightly Injured,163
+2018,PAHANG,Minor Accidents,79
+2018,PAHANG,Serious Accidents,93
+2018,PAHANG,Seriously Injured,167
+2018,PAHANG,Total Accidents,20641
+2018,PERAK,Damage Only Accidents,37019
+2018,PERAK,Deaths,693
+2018,PERAK,Fatal Accidents,633
+2018,PERAK,Lightly Injured,571
+2018,PERAK,Minor Accidents,332
+2018,PERAK,Serious Accidents,294
+2018,PERAK,Seriously Injured,435
+2018,PERAK,Total Accidents,38278
+2018,PERLIS,Damage Only Accidents,1772
+2018,PERLIS,Deaths,64
+2018,PERLIS,Fatal Accidents,61
+2018,PERLIS,Lightly Injured,241
+2018,PERLIS,Minor Accidents,223
+2018,PERLIS,Serious Accidents,37
+2018,PERLIS,Seriously Injured,48
+2018,PERLIS,Total Accidents,2093
+2018,PULAU PINANG,Damage Only Accidents,45177
+2018,PULAU PINANG,Deaths,390
+2018,PULAU PINANG,Fatal Accidents,381
+2018,PULAU PINANG,Lightly Injured,85
+2018,PULAU PINANG,Minor Accidents,61
+2018,PULAU PINANG,Serious Accidents,115
+2018,PULAU PINANG,Seriously Injured,136
+2018,PULAU PINANG,Total Accidents,45734
+2018,SABAH,Damage Only Accidents,17296
+2018,SABAH,Deaths,310
+2018,SABAH,Fatal Accidents,280
+2018,SABAH,Lightly Injured,329
+2018,SABAH,Minor Accidents,187
+2018,SABAH,Serious Accidents,243
+2018,SABAH,Seriously Injured,366
+2018,SABAH,Total Accidents,18006
+2018,SARAWAK,Damage Only Accidents,19885
+2018,SARAWAK,Deaths,333
+2018,SARAWAK,Fatal Accidents,321
+2018,SARAWAK,Lightly Injured,243
+2018,SARAWAK,Minor Accidents,190
+2018,SARAWAK,Serious Accidents,204
+2018,SARAWAK,Seriously Injured,266
+2018,SARAWAK,Total Accidents,20600
+2018,SELANGOR,Damage Only Accidents,161644
+2018,SELANGOR,Deaths,1046
+2018,SELANGOR,Fatal Accidents,1004
+2018,SELANGOR,Lightly Injured,215
+2018,SELANGOR,Minor Accidents,188
+2018,SELANGOR,Serious Accidents,242
+2018,SELANGOR,Seriously Injured,280
+2018,SELANGOR,Total Accidents,163078
+2018,TERENGGANU,Damage Only Accidents,10075
+2018,TERENGGANU,Deaths,275
+2018,TERENGGANU,Fatal Accidents,256
+2018,TERENGGANU,Lightly Injured,236
+2018,TERENGGANU,Minor Accidents,162
+2018,TERENGGANU,Serious Accidents,114
+2018,TERENGGANU,Seriously Injured,149
+2018,TERENGGANU,Total Accidents,10607
+2019,JOHOR,Damage Only Accidents,81138
+2019,JOHOR,Deaths,1040
+2019,JOHOR,Fatal Accidents,966
+2019,JOHOR,Lightly Injured,305
+2019,JOHOR,Minor Accidents,209
+2019,JOHOR,Serious Accidents,189
+2019,JOHOR,Seriously Injured,264
+2019,JOHOR,Total Accidents,82502
+2019,KEDAH,Damage Only Accidents,23441
+2019,KEDAH,Deaths,446
+2019,KEDAH,Fatal Accidents,439
+2019,KEDAH,Lightly Injured,779
+2019,KEDAH,Minor Accidents,768
+2019,KEDAH,Serious Accidents,219
+2019,KEDAH,Seriously Injured,220
+2019,KEDAH,Total Accidents,24867
+2019,KELANTAN,Damage Only Accidents,9593
+2019,KELANTAN,Deaths,338
+2019,KELANTAN,Fatal Accidents,310
+2019,KELANTAN,Lightly Injured,1282
+2019,KELANTAN,Minor Accidents,1220
+2019,KELANTAN,Serious Accidents,172
+2019,KELANTAN,Seriously Injured,193
+2019,KELANTAN,Total Accidents,11295
+2019,KUALA LUMPUR,Damage Only Accidents,73218
+2019,KUALA LUMPUR,Deaths,209
+2019,KUALA LUMPUR,Fatal Accidents,209
+2019,KUALA LUMPUR,Lightly Injured,316
+2019,KUALA LUMPUR,Minor Accidents,294
+2019,KUALA LUMPUR,Serious Accidents,50
+2019,KUALA LUMPUR,Seriously Injured,51
+2019,KUALA LUMPUR,Total Accidents,73771
+2019,MELAKA,Damage Only Accidents,19239
+2019,MELAKA,Deaths,217
+2019,MELAKA,Fatal Accidents,202
+2019,MELAKA,Lightly Injured,107
+2019,MELAKA,Minor Accidents,84
+2019,MELAKA,Serious Accidents,68
+2019,MELAKA,Seriously Injured,82
+2019,MELAKA,Total Accidents,19593
+2019,N/SEMBILAN,Damage Only Accidents,24673
+2019,N/SEMBILAN,Deaths,337
+2019,N/SEMBILAN,Fatal Accidents,313
+2019,N/SEMBILAN,Lightly Injured,651
+2019,N/SEMBILAN,Minor Accidents,569
+2019,N/SEMBILAN,Serious Accidents,283
+2019,N/SEMBILAN,Seriously Injured,325
+2019,N/SEMBILAN,Total Accidents,25838
+2019,PAHANG,Damage Only Accidents,20499
+2019,PAHANG,Deaths,454
+2019,PAHANG,Fatal Accidents,398
+2019,PAHANG,Lightly Injured,232
+2019,PAHANG,Minor Accidents,158
+2019,PAHANG,Serious Accidents,141
+2019,PAHANG,Seriously Injured,181
+2019,PAHANG,Total Accidents,21196
+2019,PERAK,Damage Only Accidents,38403
+2019,PERAK,Deaths,667
+2019,PERAK,Fatal Accidents,616
+2019,PERAK,Lightly Injured,595
+2019,PERAK,Minor Accidents,347
+2019,PERAK,Serious Accidents,354
+2019,PERAK,Seriously Injured,465
+2019,PERAK,Total Accidents,39720
+2019,PERLIS,Damage Only Accidents,1819
+2019,PERLIS,Deaths,76
+2019,PERLIS,Fatal Accidents,74
+2019,PERLIS,Lightly Injured,198
+2019,PERLIS,Minor Accidents,188
+2019,PERLIS,Serious Accidents,17
+2019,PERLIS,Seriously Injured,18
+2019,PERLIS,Total Accidents,2098
+2019,PULAU PINANG,Damage Only Accidents,46687
+2019,PULAU PINANG,Deaths,392
+2019,PULAU PINANG,Fatal Accidents,370
+2019,PULAU PINANG,Lightly Injured,42
+2019,PULAU PINANG,Minor Accidents,37
+2019,PULAU PINANG,Serious Accidents,104
+2019,PULAU PINANG,Seriously Injured,110
+2019,PULAU PINANG,Total Accidents,47198
+2019,SABAH,Damage Only Accidents,17727
+2019,SABAH,Deaths,291
+2019,SABAH,Fatal Accidents,256
+2019,SABAH,Lightly Injured,307
+2019,SABAH,Minor Accidents,253
+2019,SABAH,Serious Accidents,284
+2019,SABAH,Seriously Injured,359
+2019,SABAH,Total Accidents,18520
+2019,SARAWAK,Damage Only Accidents,20545
+2019,SARAWAK,Deaths,369
+2019,SARAWAK,Fatal Accidents,352
+2019,SARAWAK,Lightly Injured,301
+2019,SARAWAK,Minor Accidents,248
+2019,SARAWAK,Serious Accidents,196
+2019,SARAWAK,Seriously Injured,213
+2019,SARAWAK,Total Accidents,21341
+2019,SELANGOR,Damage Only Accidents,166414
+2019,SELANGOR,Deaths,1054
+2019,SELANGOR,Fatal Accidents,1008
+2019,SELANGOR,Lightly Injured,455
+2019,SELANGOR,Minor Accidents,447
+2019,SELANGOR,Serious Accidents,353
+2019,SELANGOR,Seriously Injured,369
+2019,SELANGOR,Total Accidents,168222
+2019,TERENGGANU,Damage Only Accidents,10724
+2019,TERENGGANU,Deaths,277
+2019,TERENGGANU,Fatal Accidents,251
+2019,TERENGGANU,Lightly Injured,285
+2019,TERENGGANU,Minor Accidents,229
+2019,TERENGGANU,Serious Accidents,151
+2019,TERENGGANU,Seriously Injured,172
+2019,TERENGGANU,Total Accidents,11355
