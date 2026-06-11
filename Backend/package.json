@@ -1,0 +1,13 @@
+{
+  "name": "drivebuddy-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:agent": "cd agent && npm start",
+    "start:server": "cd dashboard && node server.js",
+    "dev": "concurrently \"npm run start:agent\" \"npm run start:server\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

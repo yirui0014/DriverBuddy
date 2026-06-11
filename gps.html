@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Directions: A → B</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    html, body { height: 100%; margin: 0; font-family: system-ui, Arial; }
+    #map { height: calc(100% - 110px); }
+    .panel {
+      box-sizing: border-box; padding: 10px 12px; gap: 8px;
+      display: grid; grid-template-columns: 1fr 1fr auto; align-items: center;
+      background: #fff; border-bottom: 1px solid #e5e5e5;
+    }
+    .panel input, .panel select, .panel button {
+      padding: 10px 12px; border: 1px solid #c9c9c9; border-radius: 8px; font-size: 14px;
+    }
+    .panel button { cursor: pointer; }
+    #info { padding: 8px 12px; border-top: 1px solid #eee; font-size: 14px; }
+    @media (max-width: 800px) {
+      .panel { grid-template-columns: 1fr; }
+      .panel button, .panel select { width: 100%; }
+    }
+  </style>
+
+  <!-- IMPORTANT: we load Maps JS dynamically using the Vite env var -->
+  <script type="module">
+    const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+    if (!apiKey) alert("Missing VITE_GOOGLE_MAPS_API_KEY in .env");
+
+    // Expose the init callback for Maps JS
+    window.initMap = initMap;
+
+    // Inject the Maps JS script with your key
+    const s = document.createElement("script");
+    s.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=weekly&callback=initMap`;
+    s.async = true;
+    document.head.appendChild(s);
+
+    let map, directionsService, directionsRenderer;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 1.3521, lng: 103.8198 }, // Singapore default
+        zoom: 12,
+        mapId: "DEMO_MAP",
+      });
+
+      directionsService = new google.maps.DirectionsService();
+      directionsRenderer = new google.maps.DirectionsRenderer({ map });
+
+      document.getElementById("go").addEventListener("click", route);
+      document.getElementById("useMe").addEventListener("click", useMyLocation);
+    }
+
+    function useMyLocation() {
+      if (!navigator.geolocation) return alert("Geolocation not supported.");
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const { latitude, longitude } = pos.coords;
+          document.getElementById("origin").value = `${latitude}, ${longitude}`;
+        },
+        (err) => alert("Location error: " + err.message),
+        { enableHighAccuracy: true, timeout: 8000, maximumAge: 1000 }
+      );
+    }
+
+    function route() {
+      const origin = document.getElementById("origin").value.trim();
+      const destination = document.getElementById("destination").value.trim();
+      const mode = document.getElementById("mode").value;
+
+      if (!origin || !destination) {
+        alert("Please enter both origin and destination.");
+        return;
+      }
+
+      directionsService.route(
+        {
+          origin,
+          destination,
+          travelMode: google.maps.TravelMode[mode],
+          provideRouteAlternatives: true,
+        },
+        (result, status) => {
+          const info = document.getElementById("info");
+          if (status === google.maps.DirectionsStatus.OK) {
+            directionsRenderer.setDirections(result);
+            const leg = result.routes[0].legs[0];
+            info.textContent = `Best route: ${leg.distance?.text}, about ${leg.duration?.text}`;
+          } else {
+            info.textContent = "";
+            alert("Directions request failed: " + status);
+          }
+        }
+      );
+    }
+  </script>
+</head>
+<body>
+  <div class="panel">
+    <input id="origin" placeholder="Origin (address or 'lat,lng')" />
+    <input id="destination" placeholder="Destination (address or 'lat,lng')" />
+    <select id="mode" title="Travel mode" aria-label="Travel mode">
+      <option value="DRIVING">Driving</option>
+      <option value="WALKING">Walking</option>
+      <option value="BICYCLING">Bicycling</option>
+      <option value="TRANSIT">Transit</option>
+    </select>
+    <button id="go">Show route</button>
+    <button id="useMe" title="Use current location as origin">Use my location</button>
+  </div>
+
+  <div id="map"></div>
+  <div id="info"></div>
+</body>
+</html>

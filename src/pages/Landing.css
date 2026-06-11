@@ -1,0 +1,174 @@
+/* ---------- Landing / Hero (scoped) ---------- */
+.landing { min-height: 100vh; background: #23242d; }
+
+.landing__hero {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: end;                         /* text near bottom */
+  padding: clamp(16px, 4vw, 32px);
+}
+
+/* dark overlay for legibility */
+.landing__hero::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg,
+    rgba(0,0,0,0.10) 0%,
+    rgba(0,0,0,0.35) 55%,
+    rgba(0,0,0,0.65) 100%);
+  pointer-events: none;
+}
+
+/* “DB” mark */
+.landing__badge {
+  position: absolute;
+  left: clamp(18px, 6vw, 64px);
+  bottom: clamp(28vh, 30vh, 34vh);
+  width: clamp(120px, 28vw, 220px);
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,.35));
+  z-index: 1;
+}
+
+/* text */
+.landing__copy {
+  position: relative; z-index: 2;
+  margin: 0 clamp(18px, 6vw, 64px) clamp(22px, 6vh, 48px);
+  color: #eaf2e9;
+  transform: translateY(12px);   /* slightly lower on desktop */
+}
+
+.landing__title {
+  margin: 0 0 10px 0;
+  font-weight: 900;
+  letter-spacing: .3px;
+  font-size: clamp(36px, 7vw, 64px);
+  color: #c7ff57; /* match logo accent */
+}
+
+.landing__subtitle {
+  margin: 0 0 clamp(22px, 5vh, 36px);
+  font-size: clamp(16px, 3.8vw, 24px);
+  line-height: 1.35;
+  color: #cbd5e1;
+}
+
+/* CTA */
+.landing__cta-row { display:flex; gap:12px; flex-wrap:wrap; }
+.landing__cta {
+  display: inline-flex; align-items:center; justify-content:center;
+  min-width: 220px;
+  text-align: center;
+  padding: clamp(12px, 2.8vh, 18px) clamp(18px, 4vw, 26px);
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: clamp(16px, 3.6vw, 18px);
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 12px 24px rgba(0,0,0,.28);
+}
+.landing__cta--primary {
+  background: #1c2541; color: #eaf2ff; border-color: #344a85;
+}
+.landing__cta--primary:hover { background:#243b6b; }
+.landing__cta--secondary { background: rgba(255,255,255,0.08); color: #e5e7eb; }
+.landing__cta--secondary:hover { background: rgba(255,255,255,0.12); }
+
+@media (max-width: 560px) {
+  .landing__hero { align-items: center; }
+  .landing__copy {
+    transform: translateY(0);          /* bring content higher on phones */
+    margin: 0 clamp(16px, 5vw, 28px) clamp(14px, 4vh, 24px);
+  }
+}
+
+/* Single small button row under CTA */
+.landing__links { display: flex; gap: 12px; margin-top: 14px; }
+.landing__link-btn {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.55);
+  background: rgba(17,24,39,0.35);
+  color: #e5e7eb;
+  font-weight: 600;
+  font-size: clamp(12px, 3.2vw, 14px);
+  backdrop-filter: blur(3px);
+}
+.landing__link-btn:hover { background: rgba(17,24,39,0.5); }
+.landing__link-btn:active { transform: translateY(1px); }
+
+/* features section removed per request */
+
+/* ---------- Modal ---------- */
+.landing__modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: grid;
+  place-items: center;
+  z-index: 50;
+}
+
+/* Container for scrollable text + fixed button */
+.landing__modal-card {
+  position: relative;
+  width: min(680px, 92vw);
+  max-height: 80vh;
+  background: #0f172a;
+  color: #e5e7eb;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 24px 70px rgba(0,0,0,.45);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevent double scrollbar */
+}
+
+/* Scrollable text area */
+.landing__modal-content {
+  padding: clamp(18px, 4vw, 28px);
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* Title + subtitles */
+.landing__modal-card h2 {
+  margin: 0 0 8px;
+  font-size: clamp(18px, 5vw, 22px);
+  font-weight: 800;
+}
+
+.landing__modal-subtitle {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #c7ff57;
+}
+
+/* Fixed footer button */
+.landing__modal-actions {
+  position: sticky;
+  bottom: 0;
+  background: #0f172a;
+  padding: 10px 16px 14px;
+  display: flex;
+  justify-content: center; /* Centered for better mobile UX */
+  border-top: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.4);
+}
+
+.landing__close-btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.4);
+  background: #ffffff;
+  color: #111827;
+  font-weight: 700;
+}
+.landing__close-btn:hover { filter: brightness(0.96); }
+.landing__close-btn:active { transform: translateY(1px); }

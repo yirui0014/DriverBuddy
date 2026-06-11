@@ -1,0 +1,287 @@
+.gps-console {
+  position: relative;
+  display: flex;
+  justify-content: center; /* center circle horizontally */
+  align-items: flex-start; /* align to top */
+  padding: 12px;
+  background: #0b132b;
+}
+
+/* Circle stays in center */
+.fatigue-circle {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  border: 6px solid #16a34a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.fatigue-label {
+  font-size: 11px;
+  line-height: 1.1;
+}
+
+.fatigue-value {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Right-aligned icon container */
+.gps-console-right {
+  position: absolute;
+  right: 16px;   /* dock to right side */
+  top: 12px;     /* align to top */
+  display: flex;
+  align-items: center;
+  flex-direction: column;   /* stack vertically */
+  align-items: center;      /* center children horizontally */
+  gap: 10px;
+}
+
+/* Base styles for both Mic + Camera */
+.icon-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  padding: 0;
+  transition: transform 0.08s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Mic inherits from VoiceChat.css */
+.mic-btn {
+  background: #16a34a;
+  color: white;
+}
+
+/* Camera matches mic style */
+.cam-btn {
+  color: white;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25); /* subtle glow */
+}
+
+.cam-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.cam-btn:active {
+  transform: translateY(0);
+}
+
+/* === System status dot (tiny) === */
+.sys-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;              /* space between dot and text */
+  margin-right: 10px;    /* some breathing room before next element */
+}
+
+.sys-text {
+  font-size: 12px;
+  color: #e5e7eb;        /* light gray (adjust for your theme) */
+  white-space: nowrap;
+}
+
+/* Tooltip container above the indicator */
+.sys-indicator .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: #1f2937; /* dark gray */
+  color: #f9fafb;
+  text-align: left;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.6;
+  position: absolute;
+  bottom: 20%;       /* instead of top: now above */
+  right: 10px;
+  z-index: 50;
+  transition: opacity 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Add a little arrow pointing down */
+.sys-indicator .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* arrow at bottom of tooltip */
+  left: 12px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1f2937 transparent transparent transparent;
+}
+
+/* Show tooltip on hover */
+.sys-indicator:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Flex row for dot + text inside tooltip */
+.tooltip p {
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+}
+
+/* Small colored legend dots */
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.legend-dot.dot-green { background: #16a34a; }
+.legend-dot.dot-yellow { background: #facc15; }
+.legend-dot.dot-red { background: #ef4444; }
+
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.15); /* subtle ring to pop on dark bg */
+}
+
+/* color states */
+.dot-green  { background: #16a34a; } /* green */
+.dot-yellow { background: #facc15; } /* amber */
+.dot-red    { background: #ef4444; } /* red */
+
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between mic and camera */
+}
+
+
+/* --- Turn indicator (left of center) --- */
+.turn-indicator {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: transparent; /* keep bar clean; add bg if you prefer */
+  max-width: calc(50% - 90px); /* never overlap the drowsy circle (~78px + margin) */
+}
+
+.turn-icon {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.turn-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;        /* allow text to shrink */
+}
+
+.turn-instruction {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.turn-distance {
+  color: #3b82f6; /* blue */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+/* Mobile tweaks */
+@media (max-width: 540px) {
+  .turn-indicator { 
+    gap: 10px; 
+    padding: 4px 8px; 
+    max-width: calc(50% - 84px);
+  }
+  .turn-instruction { font-size: 14px; }
+  .turn-distance { font-size: 13px; }
+}
+
+/* VERY small phones */
+@media (max-width: 380px) {
+  .turn-instruction {
+    max-width: 58vw;        /* extra clamp */
+  }
+}
+
+/* === Speed badge (beside turn indicator) === */
+.speed-badge {
+  flex: 0 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 58px;
+  padding: 6px 8px;
+  border-radius: 10px;
+  background: #0b132b;          /* same console bg */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.08);
+  margin-left: 6px;              /* snugs up to turn pill */
+  z-index: 3;                    /* float over center circle if needed */
+}
+
+.speed-value {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #f59e0b;                /* amber, like your sample */
+}
+
+.speed-unit {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #e5e7eb;
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* allow the left banner to overrun towards center on small screens */
+.turn-indicator {
+  overflow: visible;
+}
+
+/* tighter on very small phones so it can tuck into the circle */
+@media (max-width: 540px) {
+  .speed-badge { min-width: 52px; padding: 4px 6px; }
+  .speed-value { font-size: 22px; }
+  .speed-unit  { font-size: 11px; }
+}
